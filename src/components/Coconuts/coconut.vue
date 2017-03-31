@@ -3,7 +3,8 @@
     <h1>{{ msg }}</h1>
     <ul>
       <li v-for="role in roles">
-        <a><home :message = "role"></home></a>
+        <router-link :to=" '/' + role" >I am {{ role }}</router-link>
+        <!-- <home :message = "role"></home> -->
       </li> 
     </ul>
   </div>
