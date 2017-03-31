@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/palms-512.png">
+    <img id = "logo" src="./assets/palms-512.png">
     <router-view></router-view>
   </div>
 </template>
@@ -19,5 +19,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
 }
 </style>

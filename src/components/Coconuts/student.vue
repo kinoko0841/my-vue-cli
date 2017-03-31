@@ -6,7 +6,7 @@ export default {
   name: 'student',
   data () {
     return {
-      msg: 'This is a student.'
+      msg: 'I am Student'
     }
   },
   methods: {

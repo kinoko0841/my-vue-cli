@@ -6,7 +6,7 @@ export default {
   name: 'mentor',
   data () {
     return {
-      msg: 'This is a mentor.'
+      msg: 'I am Mentor'
     }
   },
   methods: {

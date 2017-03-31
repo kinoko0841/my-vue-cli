@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import Hello from '@/components/Hello'
 import Coconut from '@/components/Coconuts/Coconut'
+// import student from '@/components/Coconuts/student'
+// import mentor from '@/components/Coconuts/mentor'
+// import admin from '@/components/Coconuts/admin'
 
 Vue.use(Router)
 

@@ -6,7 +6,7 @@ export default {
   name: 'admin',
   data () {
     return {
-      msg: 'This is a admin.'
+      msg: 'I am Admin'
     }
   },
   methods: {
