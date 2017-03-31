@@ -18,7 +18,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
     <h2>My Demo</h2>
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a>
+    <coconut></coconut>
   </div>
 </template>
 
