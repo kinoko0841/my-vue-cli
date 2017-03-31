@@ -2,30 +2,29 @@
   <div class="coconut">
     <h1>{{ msg }}</h1>
     <ul>
-      <li><student></student></li>
-      <li><mentor></mentor></li>
-      <li><admin></admin></li>   
+      <li v-for="role in roles">
+        <a><home :message = "role"></home></a>
+      </li> 
     </ul>
-    
-    
   </div>
 </template>
 
 <script>
-import student from '@/components/Coconuts/student'
-import mentor from '@/components/Coconuts/mentor'
-import admin from '@/components/Coconuts/admin'
+import home from '@/components/Coconuts/home'
+
 export default {
   name: 'coconut',
   data () {
     return {
-      msg: 'This is a coconut.'
+      roles: ['student', 'mentor', 'admin'],
+      msg: 'This is a coconut tree.'
     }
   },
   components: {
-    student,
-    mentor,
-    admin
+    home
+    // student,
+    // mentor,
+    // admin
   }
 }
 </script>
@@ -44,4 +43,5 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+
 </style>
