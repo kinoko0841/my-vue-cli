@@ -1,0 +1,260 @@
+body, div, 
+h1, h2, h3, h4, h5,
+p, span, code,
+label,
+button, 
+input {
+  font-family: 'Segoe UI Light','LatoLight', Helvetica, Verdana, Arial, sans-serif, 'Lantinghei SC', '兰亭黑', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑'; 
+}
+
+body {
+ color: $font_black; 
+}
+
+h1 {
+  font-size:36px;
+}
+
+h2 {
+  font-size:30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.5em;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h1.extra-big {
+  font-size:56px;
+}
+
+h1.extra-extra-big {
+  font-size:144px;
+  font-weight: 700;
+  line-height: 155px;
+}
+
+.green {
+  color: rgb(89,179,91);
+}
+
+.orange {
+  color: $orange;
+}
+
+.theme-blue {
+  color: $theme_blue;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: $normal_font_black;
+}
+
+.secondary-black {
+  color: $secondary_black;
+}
+
+.strong-black {
+  color: $strong_font_black;
+}
+
+.gray {
+  color: $gray;
+}
+
+.gray-heavy {
+  color: $gray_heavy;
+}
+
+.red {
+  color: $red;
+}
+
+.purple {
+  color: $purple;
+}
+
+.theme_blue_highlight{
+  color: $theme_blue_highlight;
+}
+
+.blue_medium {
+  color: $blue_medium;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* ----------------------------------- */
+
+/** 
+ * Semantic font set in the mobile
+ *
+ * Primary font set for the site 
+ */
+
+[class*=size-] {
+  line-height: 150%;
+}
+
+.size-xxxl {
+  font-size: $m-size-xxxl;
+}
+
+.size-xxl {
+  font-size: $m-size-xxl;
+
+}
+
+.size-xl {
+  font-size: $m-size-xl;
+}
+
+.size-l {
+  font-size: $m-size-l;
+}
+
+.size-m {
+  font-size: $m-size-m;
+}
+
+.size-s {
+  font-size: $m-size-s;
+}
+
+.size-xs {
+  font-size: $m-size-xs;
+}
+
+/** 
+ * numeric font set in the mobile
+ *
+ * Complementary font set for the site. 
+ * Can override the primary font set
+ */
+
+[class*=m-size-] {
+  line-height: 150%;
+}
+
+.m-size-36 {
+  font-size: 36px;
+}
+
+.m-size-26 {
+  font-size: 26px;
+}
+
+.m-size-21 {
+  font-size: 21px;
+}
+
+.m-size-16 {
+  font-size: 16px;
+}
+
+.m-size-13 {
+  font-size: 13px;
+}
+
+.m-size-12 {
+  font-size: 12px;
+}
+
+.m-size-11 {
+  font-size: 11px;
+}
+
+@include mq($small-screen-width) {
+  /** 
+   * Semantic font set in the tablet and above
+   *
+   * Primary font set for the site 
+   */
+  
+  .size-xxxl {
+    font-size: $t-size-xxxl;
+  }
+  
+  .size-xxl {
+    font-size: $t-size-xxl;
+  }
+
+  .size-xl {
+    font-size: $t-size-xl;
+  }
+
+  .size-l {
+    font-size: $t-size-l;
+  }
+
+  .size-m {
+    font-size: $t-size-m;
+  }
+
+  .size-s {
+    font-size: $t-size-s;
+  }
+
+  .size-xs {
+    font-size: $t-size-xs;
+  }
+
+  /** 
+   * numeric font set in the tablet
+   *
+   * Complementary font set for the site. 
+   * Can override the primary font set
+   */
+
+  [class*=t-size-] {
+    line-height: 150%;
+  }
+
+  .t-size-52 {
+    font-size: 52px;
+  }
+
+  .t-size-32 {
+    font-size: 32px;
+  }
+
+  .t-size-24 {
+    font-size: 24px;
+  }
+
+  .t-size-20 {
+    font-size: 20px;
+  }
+
+  .t-size-18 {
+    font-size: 18px;
+  }
+
+  .t-size-16 {
+    font-size: 16px;
+  }
+
+  .t-size-14 {
+    font-size: 14px;
+  }
+}
+
